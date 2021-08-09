@@ -7,9 +7,44 @@ Simple Laravel 8 Starter, features:
 - CRUD Users with Pagination
 - Upload/Change Profile Picture/Avatar
 
-To do:
+### To do:
 
 - Role Management
+
+## How to use:
+
+- Clone this repository
+- run composer install
+- copy .env.example to .envAdjust DB connection according to your database server
+- php artisan key:generate
+- php artisan migrate
+- php artisan db:seed (optional, you can register your own user)
+- php artisan storage:link   
+- php artisan serve
+
+## Tips:
+
+Add new menu in file: 
+
+`resources/views/layouts/includes/sidebar.blade.php`
+
+
+Create Controller & Model using command
+
+`php artisan make:controller SupplierController --resource --model=Supplier`
+
+https://laravel.com/docs/8.x/controllers
+
+Create Migration
+
+`php artisan make:migration create_supplier_table`
+
+- https://laravel.com/docs/8.x/migrations#generating-migrations
+- https://laravel.com/docs/8.x/migrations#available-column-types
+
+
+
+Happy coding
 
 Made with Love ❤️
 [fahmialazhar.com](https://fahmialazhar.com)
