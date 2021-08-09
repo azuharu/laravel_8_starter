@@ -82,7 +82,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-coreui-dismiss="modal">Close</button>
-                    <button class="btn btn-primary" id="delete-user" type="submit">Delete</button>
+                    <button class="btn btn-primary" type="submit">Delete</button>
                 </div>
             </form>
         </div>

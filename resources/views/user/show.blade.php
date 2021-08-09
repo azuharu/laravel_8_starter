@@ -57,7 +57,7 @@
 <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form method="POST" action="{{ route('user.destroy', $user->id) }}" id="delete-user">
+            <form method="POST" action="{{ route('user.destroy', $user->id) }}">
                 @method('DELETE')
                 @csrf
                 <div class="modal-header">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-coreui-dismiss="modal">Close</button>
-                    <button class="btn btn-primary" id="delete-user" type="submit">Delete</button>
+                    <button class="btn btn-primary" type="submit">Delete</button>
                 </div>
             </form>
         </div>
