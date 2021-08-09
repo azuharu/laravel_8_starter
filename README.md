@@ -39,6 +39,10 @@ Create Migration
 
 `php artisan make:migration create_supplier_table`
 
+Add Column to Existing Table
+
+`php artisan migrate:make add_status_to_supplier`
+
 - https://laravel.com/docs/8.x/migrations#generating-migrations
 - https://laravel.com/docs/8.x/migrations#available-column-types
 
