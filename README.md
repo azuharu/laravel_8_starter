@@ -43,6 +43,14 @@ Create Migration
 - https://laravel.com/docs/8.x/migrations#available-column-types
 
 
+Screenshots
+
+![Laravel CRUD User](https://fahmialazhar.com/wp-content/uploads/2021/08/laravel-8-crud-users.png)
+
+
+
+![Laravel Upload Profile Picture](https://fahmialazhar.com/wp-content/uploads/2021/08/laravel-8-upload-file.png)
+
 
 Happy coding
 
